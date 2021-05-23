@@ -26,3 +26,6 @@ _Using an ng-content element in these cases is not recommended_
 
 for more info see [here](https://angular.io/guide/content-projection#conditional-content-projection) and [here](https://medium.com/@pietmichal/angulars-content-projection-trap-and-why-you-should-consider-using-template-outlet-instead-cc3c4cad87c9)
 
+## lifecycle of components 
+Content projection is a pattern in which you insert (project) the content then how is responsible for lifecycle of component ?
+more info [here](https://dev.to/angular/understanding-content-projection-in-angular-2ld9)
