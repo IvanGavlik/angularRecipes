@@ -12,7 +12,7 @@ import { SecondComponent } from './01-components/05-dynamic-component/01-example
 import { DynamicComponentEx01Component } from './01-components/05-dynamic-component/01-example/dynamic-component-ex01/dynamic-component -ex01.component';
 import {FormsModule} from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
-import {HighlightDirective} from "./03-directives/01_basic/HighlightDirective";
+import { HighlightDirective } from './03-directives/01_basic/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import {HighlightDirective} from "./03-directives/01_basic/HighlightDirective";
     FirstComponent,
     SecondComponent,
     DynamicComponentEx01Component,
-    HighlightDirective
+    HighlightDirective,
 
   ],
   imports: [
