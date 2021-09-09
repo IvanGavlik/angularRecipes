@@ -14,6 +14,7 @@ import {FormsModule} from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
 import { HighlightDirective } from './03-directives/01_basic/highlight.directive';
 import { SelectOptionsDirective } from './03-directives/01_basic/select-options.directive';
+import { MyIFDirective } from './03-directives/01_basic/my-if.directive';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SelectOptionsDirective } from './03-directives/01_basic/select-options.
     DynamicComponentEx01Component,
     HighlightDirective,
     SelectOptionsDirective,
+    MyIFDirective,
 
   ],
   imports: [

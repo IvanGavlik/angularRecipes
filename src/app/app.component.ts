@@ -14,4 +14,6 @@ export class AppComponent {
     { value: 'test 2', label: 'test L2', cssClass: '' }
   ];
 
+  condition = true;
+
 }
